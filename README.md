@@ -1,6 +1,6 @@
 # Identicon
 
-**TODO: Add description**
+Elixir module for creating an identicon image
 
 ## Installation
 
@@ -8,7 +8,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   1. Add `identicon` to your list of dependencies in `mix.exs`:
 
-    ```elixir
+    ```
     def deps do
       [{:identicon, "~> 0.1.0"}]
     end
@@ -16,15 +16,16 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
   2. Ensure `identicon` is started before your application:
 
-    ```elixir
+    ```
     def application do
       [applications: [:identicon]]
     end
     ```
 
-### Testing
+## Testing
 
 Integration testing can be run using mix
+
 ```bash
 $ mix test
 ```
