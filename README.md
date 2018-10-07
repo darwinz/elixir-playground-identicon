@@ -20,6 +20,15 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     def application do
       [applications: [:identicon]]
     end
+
+
+## Running
+
+Run the program from iex as follows
+
+```elixir
+iex(1)> Identicon.main("asdf")
+```
     
 
 ## Testing
