@@ -22,3 +22,10 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     end
     ```
 
+### Testing
+
+Integration testing can be run using mix
+```bash
+$ mix test
+```
+
